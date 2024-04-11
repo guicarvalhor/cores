@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="color-generator">
+        <h1>Gerador de Cores</h1>
+
+        <div class="color-label">
+            <span>Cor: <span id="color-value">#ff0000</span></span>
+            <input type="color" id="color-picker" value="#ff0000">
+        </div>
+        <div id="inform">Aperte espaço ou entre com o código hexadecimal para criar uma escala customizada.</div>
+        <div id="color-variations"></div>
+        <div id="color-shapes"></div>
+
+        <div id="card-container">
+            <div id="weather-card" class="card">
+                <h2>Brasília - DF</h2>
+                <p>Tempo: Ensolarado</p>
+            </div>
+            <div id="image-card" class="card">
+                <img src="./assets/balao.png">
+            </div>  
+            <div id="time-card" class="card">
+                <h2>Horário Atual</h2>
+                <p id="current-time">12:00:00</p>
+            </div>
+            <div id="button-examples"></div>
+        </div>
+        
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
